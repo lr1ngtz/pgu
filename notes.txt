@@ -1,0 +1,14 @@
+Von Nuemann architecture divides the computer up into two main parts - CPU (Central Processing Unit) and the Memory.
+
+The computer's memory is used for a number of different things. All of the results
+of any calculations are stored in memory. In fact, everything that is "stored" is
+stored in memory. In addition to all of this, the Von Neumann architecture specifies
+that not only computer data should live in memory, but the programs that control the computer’s
+operation should live there, too. In fact, in a computer, there is no difference
+between a program and a program’s data except how it is used by the computer.
+They are both stored and accessed the same way.
+
+The CPU reads in instructions from memory one at a time and executes them. This
+is known as the fetch-execute cycle. The CPU contains the following elements to
+accomplish this: Program Counter, Instruction Decoder, Data bus, General-purpose registers,
+Arithmetic and logic unit.
