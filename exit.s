@@ -13,8 +13,12 @@
 # %eax holds the system call number
 # %ebx holds the return status
 
+# The .section command breaks the program
+# up into sections, data section - where you list
+# any memory storage you'll need for data.
  .section .data
 
+# text section - there instructions live.
  .section .text
  .globl _start
 _start:
